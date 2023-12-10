@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+header a {
+text-decoration: none;
+color: grey;
+display: inline-flex;
+margin-right: 50px;
+font-family: 'Heebo', sans-serif;
+font-family: 'Libre Baskerville', serif;
+}
+header h1 {
+    color:rgb(1, 1, 26);
+    font-size: 55px;
+    margin-left: 100px;
+    margin-right: 600px;
+    display: inline-flex;
+}
+.firstimg {
+    width: 820px;
+    margin-left: 120px;
+    margin-top: 30px;
+    height: 265px;
+    position: relative;
+    display: inline-flex;
+    margin-bottom: 90px;
+}
+.secondimg {
+    height: 200px;
+    width: 200px;
+    margin-top: 45px;
+    margin-left: 120px;
+}
+.thirdimg {
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+h2 {
+    display:inline-block;
+    color: rgb(252, 166, 104);
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-right: 20px;
+}
+.firstdivp {
+    display: block;
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+.thirddivp {
+    color:white;
+    padding-left: 20px;
+}
+.fourthdivp {
+    color: white;
+    font-size: 12px;
+    padding-left: 20px;
+    border-bottom: 1px solid white;
+    margin: 0px 20px;
+    padding-bottom: 15px;
+}
+.fifthdivp {
+    color: white;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.seconddivp {
+    font-size: 12px;
+    color: white;
+    padding-top: 10px;
+    margin: 20px; 
+    padding-left: 2px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+    width: 240px;
+}
+button {
+    border-style: hidden;
+    margin-left: 50%;
+    justify-content: center;
+    background-color:rgb(252, 103, 103);
+    color: white;
+    padding: 10px 20px;
+}
+.sixthdivp {
+    color: white;
+    font-size: 12px;
+    padding-left: 20px;
+}
+.gamelistpi {
+    margin-top: 90px;
+    position: absolute;
+    margin-left: 25%;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(1, 1, 26);
+}
+.gamelistp {
+    position: absolute;
+    margin-top: 43px;
+    font-size: 20px;
+    color: gray;
+    margin-left: 25%;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Oswald', sans-serif;
+}
+.gamelistpii {
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 25%;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(1, 1, 26);
+}
+.gamelistpp{
+    position: absolute;
+    margin-top: -204px;
+    font-size: 20px;
+    margin-left: 25%;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+}
+.firstdiv {
+    display: inline-block;
+    background-color: rgb(1, 1, 26);
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 70px;
+    margin-left: 20px;
+}
+.firstclass {
+    position: absolute;
+    margin-top: -60px;
+    display: inline-flex;
+    font-size: 38px;
+    font-family: 'Heebo', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Oswald', sans-serif;
+color:rgb(1, 1, 26);
+margin-left: 120px;
+}
+.secondclass {
+    color: gray;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -50px;
+}
+
+@media screen and (max-width: 500px){
+  header h1 {
+    margin-left: 20px;
+   }
+   header a {
+    display: none;
+   }
+   .firstimg {
+    width: 280px;
+    margin-left: 20px;
+   }
+   .firstclass {
+    margin-top: 100px;
+    font-size: 20px;
+    margin-left: 20px;
+   }
+   button {
+    margin-top: 110px;
+   }
+   .secondclass {
+    margin-top: 0px;
+    margin-left: 20px;
+   }
+   .secondimg {
+    margin-left: 20px;
+    height: 100px;
+    width: 80px;
+   }
+   .gamelistp {
+    margin-top: 50px;
+    margin-left: 35%;
+   }
+   .gamelistpi {
+    margin-left: 35%;
+    margin-top: 70px;
+   }
+   .gamelistpii {
+    font-size: 12px;
+    margin-top: 95px;
+    margin-left: 35%;
+   }
+   .thirdimg {
+    margin-left: 20px;
+    height: 100px;
+    width: 80px;
+   }
+}
