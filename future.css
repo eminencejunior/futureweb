@@ -162,9 +162,8 @@ margin-left: 120px;
 }
 .secondclass {
     color: gray;
-    max-width: 300px;
     position: absolute;
-    margin-left: 400px;
+    margin-left: 404px;
     margin-top: -50px;
 }
 
@@ -176,7 +175,7 @@ margin-left: 120px;
     display: none;
    }
    .firstimg {
-    width: 270px;
+    width: 337px;
     margin-left: 27px;
    }
    .firstclass {
@@ -189,11 +188,11 @@ margin-left: 120px;
    }
    button {
     margin-top: 110px;
-    margin-left: 54%;
+    margin-left: 63.5%;
    }
    .secondclass {
-    margin-top: 20px;
-    margin-left: 25px;
+    margin-top: 0px;
+    margin-left: 20px;
    }
    .secondimg {
     margin-left: 20px;
@@ -206,9 +205,9 @@ margin-left: 120px;
    }
    .firstdiv {
     margin-left: 25px;
-    padding-right: 40px;
-    padding-left: 30px;
-    max-width: 270px;
+    padding-right: 45px;
+    padding-left: 35px;
+    max-width: 337px;
     
    }
    .gamelistpi {
@@ -224,9 +223,5 @@ margin-left: 120px;
     margin-left: 20px;
     height: 100px;
     width: 80px;
-   }
-   .gamelistpp {
-    margin-top: -108px;
-    margin-left: 110px;
    }
 }
