@@ -178,8 +178,7 @@ margin-left: 120px;
    }
    .firstimg {
     width: 280px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15px;
     height: 200px;
    }
    .firstclass {
@@ -188,7 +187,8 @@ margin-left: 120px;
     margin-left: 20px;
    }
    .secondclass {
-    margin-right: 25px;
+    max-width: 278px;
+    margin-left: 0px;
    }
    button {
     margin-top: 110px;
@@ -208,11 +208,9 @@ margin-left: 120px;
     margin-left: 35%;
    }
    .firstdiv {
-    margin-left: 25px;
-    padding-right: 45px;
-    padding-left: 35px;
-    max-width: 337px;
-    
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 15px;
    }
    .gamelistpi {
     margin-left: 35%;
