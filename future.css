@@ -8,6 +8,7 @@
 header a {
 text-decoration: none;
 color: grey;
+margin-bottom: 30px;
 display: inline-flex;
 margin-right: 30px;
 font-family: 'Heebo', sans-serif;
