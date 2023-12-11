@@ -177,8 +177,10 @@ margin-left: 120px;
     display: none;
    }
    .firstimg {
-    width: 337px;
-    margin-left: 27px;
+    width: 280px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 200px;
    }
    .firstclass {
     margin-top: 100px;
